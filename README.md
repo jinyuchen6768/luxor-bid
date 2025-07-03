@@ -166,7 +166,7 @@ The application uses mock data generated in `src/lib/mockData.ts`:
 ### How We'd Keep Things Running Smoothly
 
 
-**Real-time Monitoring**: We'd set up tools like Vercel Analytics (since we're using Next.js) or New Relic to watch response times, error rates, and overall performance. 
+**Real-time Monitoring**: We'd set up tools like Vercel Analytics (since we're using Next.js)  to watch response times, error rates, and overall performance. 
 
 **Smart Logging**: Instead of just console.log statements everywhere, we'd use proper logging tools like Winston or Pino. This way, when something breaks, we can quickly trace back exactly what happened and when.
 
@@ -196,7 +196,6 @@ The application uses mock data generated in `src/lib/mockData.ts`:
 - Audit logs to track all user actions
 - Live bid updates without page refreshes
 - Push notifications for important events
-- Optimistic updates for a snappier feel
 
 
 
